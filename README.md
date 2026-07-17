@@ -1,4 +1,4 @@
-# 🏭 ERP Industrial - Sistema de Gestión de Proyectos y HelpDesk
+# ERP Industrial - Sistema de Gestión de Proyectos y HelpDesk
 
 ![Next.js](https://img.shields.io/badge/Next.js-14+-black?style=for-the-badge&logo=next.js)
 ![.NET 8](https://img.shields.io/badge/.NET_8-Purple?style=for-the-badge&logo=.net)
@@ -7,7 +7,7 @@
 
 Sistema integral de gestión (ERP/HelpDesk) diseñado para empresas del sector industrial. Permite el control total del ciclo de vida de los proyectos de mantenimiento, gestionando la asignación de técnicos, el presupuesto de materiales y el alcance técnico de los servicios.
 
-## 🚀 Arquitectura y Buenas Prácticas Aplicadas
+## Arquitectura y Buenas Prácticas Aplicadas
 
 Este proyecto fue construido bajo los principios de **Clean Architecture** y **Domain-Driven Design (DDD)** simplificado, separando estrictamente las responsabilidades entre el cliente y el servidor:
 
@@ -23,7 +23,7 @@ Este proyecto fue construido bajo los principios de **Clean Architecture** y **D
 * **Data Transfer Objects (DTOs):** Aislamiento de las entidades de dominio para controlar exactamente qué datos entran y salen de la API (Ej. `ProyectoCreacionDTO`, `AlcanceUpdateDTO`).
 * **Soft Deletes:** Eliminación lógica de registros (`Activo = 1`) para mantener la integridad histórica y financiera del ERP.
 
-## ⚙️ Funcionalidades Principales
+## Funcionalidades Principales
 
 1. **Directorio de Clientes:** CRUD completo de empresas contratantes (RUC, Razón Social, Contacto).
 2. **Directorio de Personal:** Gestión de técnicos operativos asignables a las tareas de campo.
@@ -33,7 +33,7 @@ Este proyecto fue construido bajo los principios de **Clean Architecture** y **D
    * **Control de Tareo:** Registro de horas invertidas por cada colaborador (Mano de obra).
    * **Control de Compras:** Registro y sumatoria acumulada de herramientas e insumos comprados para el proyecto.
 
-## 🛠️ Instalación y Despliegue Local
+## Instalación y Despliegue Local
 
 ### Requisitos
 * Node.js (v18 o superior)
